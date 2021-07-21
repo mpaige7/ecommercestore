@@ -1,0 +1,276 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    min-height: 100%;
+  }
+
+a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+
+
+.navbar{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 30px;
+}
+.nav-links li{
+    display: inline-block;
+}
+
+.nav-links li a{
+    list-style: none;
+    margin-left: 25px;
+}
+
+.fa-shopping-bag{
+    color: black;
+    font-size: 25px;
+}
+.notify-bar{
+    background-color: black;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+.notify-bar-message{
+    color: white;
+  }
+
+  img{display: block;}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.main-image{
+    width: 80%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.IMG-txt{
+    position: absolute;
+    font-size: 3.4em;
+    bottom: 8px;
+    left: 200px;
+    color: white;
+}
+
+.widget{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    margin-top: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.widget-contents{
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.np-img{
+    width: 18em;
+}
+
+.buy-mens{
+    width: 30%;
+    height: 750px;
+    object-fit: cover;
+    
+}
+
+.buy-womens{
+    width: 30%;
+    height: 750px;
+    object-fit: cover;
+    
+}
+
+.buy-gender{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.buy-mensTXT{
+    position:relative;
+}
+
+.buyTXT1{
+    position: absolute;
+    bottom: 8px;
+    left: 50px;
+    color: white;
+    font-size: 3.4em;
+    text-decoration: none;
+}
+
+.buy-womensTXT{
+    position:relative;
+}
+.buyTXT2{
+    position: absolute;
+    bottom: 8px;
+    left: 50px;
+    color: white;
+    font-size: 3.4em;
+    text-decoration: none;
+}
+
+.instagram{
+    width: 80%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+    height: 250px;
+    background-color: rgb(0, 0, 0);
+}
+
+.fa-instagram-square{
+    position: absolute;
+    color: rgb(228, 139, 24);
+    font-size: 12em;
+    bottom: 30px;
+    left: 200px;
+}
+
+.instagram-h2{
+    position: absolute;
+    font-size: 3.4em;
+    text-decoration: none;
+    color: rgb(228, 139, 24);
+    left: 400px;
+}
+
+.accessories{
+    background-image: url(img/retroBACKGROUND.jpg);
+    width: 80%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+    height: 250px;
+}
+
+.accessories-h2{
+    position: absolute;
+    font-size: 3.4em;
+    bottom: 14px;
+    left: 50px;
+    color: white;
+}
+
+.accessories-br{
+    font-size: 2em;
+    position: absolute;
+    bottom: 1px;
+    left: 50px;
+    color: white;
+}
+
+footer{
+    width: 100%;
+    height: 450px;
+    margin-top: 100px;
+    background: black;
+    
+}
+
+.footer{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+
+}
+
+.foot-links{
+    display: flex;
+   flex-direction: column; 
+   list-style: none;
+   margin-top: 15px;
+}
+
+.foot-links a{
+    text-decoration: none;
+    margin: 10px 0;
+    margin-top: 50px;
+    color: white;
+    font-size: 10px;
+}
+
+.foot-links2 a{
+    text-decoration: none;
+    margin: 10px 0;
+    margin-top: 50px;
+    color: white;
+    font-size: 10px;
+}
+
+.foot-links2{
+    display: flex;
+   flex-direction: column; 
+   list-style: none;
+   margin-top: 15px;
+}
+
+.social-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 15px;
+}
+
+.social{
+    color: white;
+    margin: 50px;
+}
+
+.footTXT{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerTXT{
+    color: white;
+    font-size: 10px;
+}
